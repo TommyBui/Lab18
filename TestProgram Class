@@ -1,0 +1,18 @@
+public class TestProgram {
+
+  public static void main(String args[]) {
+
+  	System.out.println(Dice.Roll_1_Dice());
+		System.out.println(Dice.Roll_1_Dice());
+		System.out.println(Dice.Roll_1_Dice());
+
+		Dice Roll = new Dice();
+		System.out.println(Roll.RollDice(2, 6));
+		System.out.println(Roll.RollDice(2, 6));
+		System.out.println(Roll.RollDice(2, 6));
+
+		System.out.println("\nStatic Method dice count is: " + Dice.RollCount());
+		System.out.println("Public Method dice count is: " + Roll.RollCount2());
+
+	}
+}
